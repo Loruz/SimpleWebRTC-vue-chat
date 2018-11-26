@@ -1,0 +1,15 @@
+.button {
+  text-align: center;
+  font: inherit;
+  border: 0;
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 15px 18px;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  &--primary {
+    color: #fff;
+    background: #2b9cf2;
+  }
+}
