@@ -36,7 +36,8 @@
     },
     methods: {
       ...mapMutations({
-        addPeer: 'addPeer'
+        addPeer: 'addPeer',
+        removePeer: 'removePeer'
       })
     },
     mounted () {
